@@ -1,0 +1,13 @@
+name = "scheduled-ip-check"
+main = "src/worker.js"
+compatibility_date = "2023-08-14"
+kv_namespaces = [
+  { binding = "IPRANGES", id = "9a9ee6b1a2d74223a6b7ca9c505c31c4" }
+]
+
+# Cron Triggers
+# Docs: https://developers.cloudflare.com/workers/platform/triggers/cron-triggers/
+# Configuration: https://developers.cloudflare.com/workers/wrangler/configuration/#triggers
+[triggers]
+crons = ["0 * * * *"] # * * * * * = run every hour
+
