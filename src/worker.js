@@ -4,7 +4,7 @@ export default {
   
 	  // Define the URLs and webhook URL
 	  const url = "https://www.cloudflare.com/ips-v4";
-	  const hookurl = "https://chat.googleapis.com/v1/spaces/AAAAaWQHvIM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=gmcYczs8GQns_HUKnOJIkld_fOlMDIjLLki3TXB6lMw";
+	  const hookurl = "https://chat.googleapis.com/v1/spacesffvIM/messages?key=AIzaSffm-WEfRq3CPzqKqqsHI&token=gmcYczs8GQw";
   
 	  // Fetch and process IP data
 	  const response = await fetch(url, { headers: { "content-type": "text/plain" } });
